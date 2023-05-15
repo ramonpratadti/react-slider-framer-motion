@@ -2,18 +2,6 @@ body {
   margin: 0px;
 }
 
-.carousel {
-  background-color: blueviolet;
-  cursor: grab;
-  overflow: hidden;
-  width: 100vw;
-}
-
-.inner-carousel {
-  display: flex;
-  background-color: lightblue;
-}
-
 .item {
   position: absolute;
   min-width: 100vw;
@@ -24,5 +12,7 @@ body {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  border: 1px solid red;
+  -webkit-box-shadow: 18px 0px 19px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 18px 0px 19px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 18px 0px 19px -6px rgba(0, 0, 0, 0.75);
 }
