@@ -21,10 +21,8 @@ body {
 }
 
 .item img {
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
-  /* border-radius: 1rem; */
-}
-
-.swipper {
+  border: 1px solid red;
 }
